@@ -3,6 +3,15 @@
 ## General Service Description
 This client provides an interface for interacting with the MCP server, which offers an API to fetch the current weather for a specified city. The client uses Gradio to create a user-friendly interface and interacts with the MCP server to obtain weather data.
 
+### Resource
+* Ubuntu 24.04.1
+* NGC Cli
+* Docker 27.3.1
+* nvidia-container-toolkit
+* cuda-toolkit 12.6
+* open-driver 560
+* HDD 160Gb
+* RTX2080TI
 
 ## Technology Stack
 - Python
