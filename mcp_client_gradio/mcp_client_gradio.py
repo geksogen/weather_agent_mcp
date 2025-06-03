@@ -10,7 +10,7 @@ mcp_client = MCPClient(
     )
 tools = mcp_client.get_tools()
 
-model = LiteLLMModel(model_id="ollama/qwen2.5:7b", api_base="http://81.94.155.74:11434")
+model = LiteLLMModel(model_id="ollama/qwen2.5:7b", api_base="http://81.94.150.136:11434")
 agent = CodeAgent(tools=[*tools], model=model)
 
 demo = gr.ChatInterface(
