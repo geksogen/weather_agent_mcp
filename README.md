@@ -46,5 +46,9 @@ sudo sh configure_VM.sh
 
 This will deploy three services: `mcp_server`, `mcp_client_gradio`, and `ollama`.
 
+
+## To do
+* add tool for forecast request
+
 ## License
 This project is licensed under the terms of the MIT License.
