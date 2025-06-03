@@ -3,6 +3,9 @@
 ## General Service Description
 This client provides an interface for interacting with the MCP server, which offers an API to fetch the current weather for a specified city. The client uses Gradio to create a user-friendly interface and interacts with the MCP server to obtain weather data.
 
+## Architecture
+![alt text](MCP_server_Arch.png "Architecture")
+
 ### Resource
 * Ubuntu 24.04.1
 * NGC Cli
